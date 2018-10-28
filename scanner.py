@@ -26,9 +26,8 @@ scrollbar.grid(column=2,row=1,sticky=N+S+W)
 
 
 #textbox input field
-
-input=Text(master=window,width=60,bg="#FFF8DC",insertbackground="green",
-           fg="green",font='Helvetica 14 bold',yscrollcommand=scrollbar.set)
+input=Text(master=window,width=60,bg="#FFF8DC",insertbackground="#A6E2DD",
+           fg="#70C1AD",font='Helvetica 14 bold',yscrollcommand=scrollbar.set)
 
 scrollbar.configure(command=input.yview)
 
