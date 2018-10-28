@@ -1,0 +1,2 @@
+def parseCode:
+    print (code)
