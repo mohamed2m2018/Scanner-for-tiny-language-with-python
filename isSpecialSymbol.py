@@ -15,10 +15,10 @@ specialSymbols=[  {"sign": "+",
                  {"sign": "<",
                   "label":"smaller than"
                  },
-                 {"sign": "(",
+                 {"sign": "Δ",
                   "label":"left bracket"
                  },
-                 {"sign": ")",
+                 {"sign": "δ",
                   "label":"right bracket"
                  },
                  {"sign": ";",
