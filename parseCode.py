@@ -28,6 +28,10 @@ def parseCode(code):
                     word=":="
                 if word=="μ":
                     word="*"
+                if word=="Δ":
+                    word="("
+                if word=="δ":
+                    word=")"
                 writer.writerow({'Token': word, 'Token type': 'special symbol of type {}'.format(wordLabel)})
 
             elif isNumber (word):
