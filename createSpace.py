@@ -10,6 +10,8 @@ def createSpace(code):
     spaceCodeList=[]
     code=code.replace(":=","α")
     code=code.replace("*","μ")
+    code=code.replace("(","Δ")
+    code=code.replace(")","δ")
     for index,character in enumerate(code):
         if isSpecialSymbol(character):
             spaceCodeList.clear()
